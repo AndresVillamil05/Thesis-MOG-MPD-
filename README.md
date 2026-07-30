@@ -31,7 +31,7 @@ figures/     Scripts que generan las figuras del documento
 | `integrator.py` | Integrador (DOP853, paso adaptativo) con detección de eventos y cálculo de las cantidades conservadas. |
 | `initial_conditions.py` | Construcción de condiciones iniciales fijando las constantes exactas (E, J_z, m, S). |
 | `effective_potential.py` | Potencial efectivo V_eff(r, θ) para partícula con espín. |
-| `potential_classification.py` | Clasificación topológica del potencial (tipos A–D) mediante análisis de puntos críticos. |
+| `potential_classification.py` | Clasificación del potencial (tipos A–D) mediante análisis de puntos críticos. |
 
 ### `analysis/` — herramientas dinámicas
 
