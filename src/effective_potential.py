@@ -23,13 +23,6 @@ def horizon_mog(alpha, M=1.0):
 def isco_schw_mog(alpha, M=1.0):
     """
     ISCO sin spin (solución de Cardano).
-    NOTA: la ec. 2-28 de la tesis tiene el termino '15*alpha+8' mal ubicado
-    (lo suma DENTRO de la raiz cuadrada). El discriminante real de la
-    cubica deprimida es D = alpha^2 (alpha+1)^2 (alpha+5), y el termino
-    15*alpha+8 debe sumarse AFUERA junto con alpha^3+8*alpha^2:
-        Z = cbrt( alpha^3 + 8*alpha^2 + 15*alpha + 8
-                  + alpha*(alpha+1)*sqrt(alpha+5) )
-    Verificado numericamente contra la raiz directa de la cubica 2-27.
     """
     Z = (alpha**3 + 8*alpha**2 + 15*alpha + 8
          + alpha*(alpha+1)*np.sqrt(alpha+5))**(1/3)
