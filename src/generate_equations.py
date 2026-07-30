@@ -8,7 +8,7 @@ usando las formulas VERIFICADAS (con la correccion a S^{tphi} que
 la contracción correcta fija el orden de p_theta y p_phi implementado aquí).
 
 Ecuaciones:
-  dx^mu/dtau = u^mu               (u de la relacion TDSSC, ec. 3-5, normalizada)
+  dx^mu/dtau = u^mu               
   dp_mu/dtau = Gamma^lam_{mu nu} u^nu p_lam - (1/2) R_{mu nu ab} u^nu S^{ab}
 
 Nota sobre la ley de fuerza covariante: la ec. 3-2 es para Dp^mu/Dtau
@@ -55,7 +55,7 @@ ginv = ginv_sym.replace(f_sym, f_mog)
 print(f"  geometria lista ({time.time()-t0:.1f}s)")
 
 # ---------------------------------------------------------------------
-# Tensor de spin S^{munu} (juego VERIFICADO, con correccion en S^tphi)
+# Tensor de spin S^{munu} (VERIFICADO, con correccion en S^tphi)
 # ---------------------------------------------------------------------
 S_phr = (pph - J*sp.sin(th)**2)/(r*sp.sin(th)**2)
 S_thph = J*sp.cos(th)/(r**2*sp.sin(th))
@@ -74,7 +74,7 @@ Sup[3, 1] = S_phr;  Sup[1, 3] = -S_phr
 Sup[2, 3] = S_thph; Sup[3, 2] = -S_thph
 
 # ---------------------------------------------------------------------
-# u^mu segun TDSSC (ec. 3-5):
+# u^mu segun TDSSC :
 #   u^mu propto p^mu + 2 S^{mu nu} p^lam R_{nu lam rho sig} S^{rho sig} / Y
 #   Y = 4 m_bar^2 + R_{abcd} S^{ab} S^{cd},   m_bar^2 = -p.p
 # Luego dt/dtau etc se obtienen normalizando: u.u = -1
