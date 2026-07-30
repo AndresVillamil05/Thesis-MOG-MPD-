@@ -1,5 +1,5 @@
 """
-LA figura central de la tesis: misma particula (J, S, r0, theta0, E
+La figura central de la tesis: misma particula (J, S, r0, theta0, E
 relativo identicos) orbitando con alpha = 0 (Schwarzschild puro),
 0.15 y 0.3 (MOG). Todo cambio entre paneles es atribuible unicamente
 al parametro de gravedad modificada.
