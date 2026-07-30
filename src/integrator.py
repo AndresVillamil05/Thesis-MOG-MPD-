@@ -5,7 +5,7 @@ verificacion por leyes de conservacion.
 Variables: y = (t, r, theta, phi, p_t, p_r, p_theta, p_phi)
 
 Cantidades monitoreadas (deben ser constantes):
-  E  = -p_t + (1/2) f'(r) S^{tr}     [ec. 3-14, con la geometria general]
+  E  = -p_t + (1/2) f'(r) S^{tr}     
   Jz = p_phi - r sin^2 S^{phi r} + r^2 sin cos S^{theta phi}  [= J por construccion]
   m2bar = -p.p
   S2 = (1/2) S_ab S^ab
