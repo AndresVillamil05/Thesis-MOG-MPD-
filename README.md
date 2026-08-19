@@ -119,5 +119,5 @@ python figures/plot_potential_classification.py
 ## Autor
 
 Andrés Julián Villamil Barros
-Director: Eduard Alexis Larragaña
+Director: Eduard Alexis Larrañaga
 Universidad Nacional de Colombia — Observatorio Astronómico Nacional
